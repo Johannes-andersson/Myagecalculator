@@ -1,0 +1,45 @@
+/* Reset margin and padding to avoid any interference */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Flexbox setup */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+  }
+  
+  /* Your existing styles for container and result */
+  .container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 2em;
+    flex-grow: 1;  /* This will push the footer to the bottom */
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  /* Your existing styles for h1 */
+  h1 {
+    color: rgb(114, 113, 113);
+  }
+  
+  /* Updated styles for footer */
+  footer {
+    background-color: #333;  /* The color you chose */
+    color: white;  /* The color you chose */
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+  }
+  
+      
+  
+  
